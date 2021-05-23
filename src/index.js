@@ -2,16 +2,59 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+// function AppTwo(){
+//   return (
+//     <h1>This is the second app</h1>
+//   )
+// }
+
+
+// const checklist = ["boots","tent","headlamp"];
+// console.log(checklist);
+
+// const [_,t,lamp] = ["boots","tent","headlamp"];
+// console.log(_,t);
+// console.log(t);
+// console.log(lamp);
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //React.createElement("h1", {style : {color : "red" }}, "Hey Asshole!"),
+  
+  /*React.createElement(
+    "ul",
+    null,
+    React.createElement("li", null, "Monday"),
+    React.createElement("li", null, "Tuesday"),
+    React.createElement("li", null, "Wednesday"),
+  ),*/
+  
+  /*<ul>
+    <li>Monday</li>
+    <li>Tuesday</li>
+    <li>Wednesday</li>
+    <li>Thursday</li>
+  // </ul>*/
+
+  // <App/> 
+  
+    // < style={{backgroundColor:"red"}}>
+    // <App />
+    // <AppTwo />                  // only fits one component here. So if you want to add one more fit it in one div or any other tag
+    // </>
+
+  
+
+  // <div style={{backgroundColor:"white"}}>           
+  //   <App authorized={false}/> 
+  //   <hr></hr>   
+  //   {/* <AppTwo /> */}
+  // </div>
+
+<App />
+ ,                            
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
