@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-
+// import App from './App';
 
 // function AppTwo(){
 //   return (
@@ -20,7 +19,7 @@ import App from './App';
 // console.log(lamp);
 
 
-ReactDOM.render(
+// ReactDOM.render(
   //React.createElement("h1", {style : {color : "red" }}, "Hey Asshole!"),
   
   /*React.createElement(
@@ -53,8 +52,17 @@ ReactDOM.render(
   //   {/* <AppTwo /> */}
   // </div>
 
-<App />
- ,                            
+// <App />
+//  ,                            
+//   document.getElementById('root')
+// );
+
+
+// App5
+import App5 from './App5';
+
+ReactDOM.render(
+  <App5 login="dishanttayade" />
+  ,
   document.getElementById('root')
 );
-
