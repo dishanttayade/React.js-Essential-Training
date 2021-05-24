@@ -59,10 +59,19 @@ import './index.css';
 
 
 // App5
-import App5 from './App5';
+// import App5 from './App5';
+
+// ReactDOM.render(
+//   <App5 login="dishanttayade" />
+//   ,
+//   document.getElementById('root')
+// );
+
+
+import App6 from './App6';
 
 ReactDOM.render(
-  <App5 login="dishanttayade" />
+  <App6 />
   ,
   document.getElementById('root')
 );
