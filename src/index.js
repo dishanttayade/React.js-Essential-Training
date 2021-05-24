@@ -68,10 +68,24 @@ import './index.css';
 // );
 
 
-import App6 from './App6';
+// import App6 from './App6';
+
+// ReactDOM.render(
+//   <App6 />
+//   ,
+//   document.getElementById('root')
+// );
+
+
+
+import App7 from "./App7";
+import { BrowserRouter as Router} from "react-router-dom"
+
 
 ReactDOM.render(
-  <App6 />
+  <Router>
+    <App7 />
+  </Router>
   ,
   document.getElementById('root')
 );
